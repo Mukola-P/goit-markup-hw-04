@@ -525,6 +525,7 @@ margin-right: 8px;
 .social-list-icon{
   width: 20px;
   height: 20px;
+  fill: #AFB1B8;
 }
 .social-list-link{
   display: flex;
@@ -541,6 +542,3 @@ margin-right: 8px;
 fill: #ffffff;
 background-color: #2196F3;
 }
-.icon-social{
-    fill: #afb1b8;
-} 
