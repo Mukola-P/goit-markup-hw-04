@@ -104,19 +104,23 @@ img {
   margin-right: 40px;
 }
 
-.mail-link {
+.mail-link
+{
   flex-direction: row-reverse;
   align-items: center;
   margin-left: auto;
   margin-right: 50px;
   
 }
-.mail-link{
-  display: flex;
-    text-decoration: none;
-    font-weight: 500;
-    text-align: center;
-    color: var(--text-color);
+.tel-link{
+  flex-direction: row-reverse;
+}
+.mail-link,
+.tel-link{
+  text-decoration: none;
+  font-weight: 500;
+  text-align: center;
+   color: var(--text-color);
 }
 .icon-mail,
 .icon-phon{
@@ -170,11 +174,16 @@ img {
 
 .mail-link,
 .tel-link {
+  display: flex;
+  align-items: center;
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
 
   color: var(--third-color);
+}
+.tel-link{
+  display: flex;
 }
 .mail-link:hover,
 .mail-link:focus {
