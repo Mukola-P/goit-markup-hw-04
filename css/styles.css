@@ -132,6 +132,11 @@ img {
   width: 10px;
   height: 16px;
 }
+.icon-mail:hover,
+.icon-mail:focus{
+  fill: var(--secondary-color);
+}
+
 
 
 /*розметка  heder}*/
@@ -642,7 +647,7 @@ fill: #AFB1B8;
 }
 
 .icon-list-link:hover,
-.icoun-list-link:focus{
+.icon-list-link:focus{
   fill: var(--secondary-color);
 }
 
