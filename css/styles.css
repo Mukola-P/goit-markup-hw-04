@@ -132,11 +132,24 @@ img {
   width: 10px;
   height: 16px;
 }
+.mail-link:hover,
+.mail-link:focus{
+  color: var(--secondary-color);
+  fill: var(--secondary-color);
+}
+.tel-link:hover,
+.tel-link:focus{
+  color: var(--secondary-color);
+  fill: var(--secondary-color);
+}
 .icon-mail:hover,
 .icon-mail:focus{
   fill: var(--secondary-color);
 }
-
+.icon-phon:hover,
+.icon-phon:focus{
+  fill: var(--secondary-color);
+}
 
 
 /*розметка  heder}*/
@@ -188,17 +201,7 @@ img {
 .tel-link{
   display: flex;
 }
-.mail-link:hover,
-.mail-link:focus {
-  color: var(--secondary-color);
-}
 
-
-
-.tel-link:hover,
-.tel-link:focus {
-  color: var(--secondary-color);
-}
 
 /* hero 1htm*/
 /* розметка hero*/
