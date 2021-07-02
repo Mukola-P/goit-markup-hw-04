@@ -106,10 +106,31 @@ img {
 
 .mail-link {
   flex-direction: row-reverse;
+  align-items: center;
   margin-left: auto;
   margin-right: 50px;
   
 }
+.mail-link{
+  display: flex;
+    text-decoration: none;
+    font-weight: 500;
+    text-align: center;
+    color: var(--text-color);
+}
+.icon-mail,
+.icon-phon{
+  display: inline-block;
+  width: 16px;
+  height: 12px;
+  margin-right: 10px;
+  fill: #757575;
+}
+.icon-phon{
+  width: 10px;
+  height: 16px;
+}
+
 /*розметка  heder}*/
 
 /* header 1htm*/
@@ -159,6 +180,7 @@ img {
 .mail-link:focus {
   color: var(--secondary-color);
 }
+
 
 .tel-link:hover,
 .tel-link:focus {
@@ -292,6 +314,7 @@ margin-bottom: 50px;
   font-size: 16px;
   line-height: 1.89;
 margin-top: 10px;
+margin-bottom: 16px;
   text-align: center;
 
   color: var(--third-color);
@@ -378,14 +401,21 @@ margin-top: 10px;
 
 /* fon*/
 .hero {
-  background: #2f303a;
   padding-top: 200px;
   padding-bottom: 200px;
-  
-
-  
   text-align: center;
+  
   color: var(--white-color);
+  background: #C4C4C4;
+  background-image: linear-gradient( to right, 
+  rgba(47, 48, 58, 0.4), 
+  rgba(47, 48, 58, 0.4) ),
+    url(../images/bd.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  max-width: 1600px;
+  margin: auto;
 }
 
 .footer {
@@ -422,6 +452,8 @@ margin-top: 50px;
 }
 .team-describe{
   padding: 30px;
+  padding-left: 32px;
+  padding-right: 32px;
   background-color: var(--white-color);
 }
   
@@ -474,3 +506,32 @@ margin-right: 8px;
   width: 370px;
 
 }
+
+.social-list{
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  
+}
+.social-list-icon{
+  width: 20px;
+  height: 20px;
+}
+.social-list-link{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: #ffffff;
+}
+
+.social-list-link:hover,
+.social-list-link:focus {
+fill: #ffffff;
+background-color: #2196F3;
+}
+.icon-social{
+    fill: #afb1b8;
+} 
