@@ -182,6 +182,7 @@ img {
 .menu-link:focus {
   color: var(--secondary-color);
 }
+
 .menu-link.current:after{
 content:"";
 width: 100%;
