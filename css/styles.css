@@ -182,6 +182,21 @@ img {
 .menu-link:focus {
   color: var(--secondary-color);
 }
+.menu-link.current:after{
+content:"";
+width: 100%;
+height: 4px;
+
+background: #2196F3;
+border-radius: 2px;
+display: block;
+margin-top: 28px;
+margin-bottom: -34px;
+
+
+
+}
+
 
 .current {
   color: var(--secondary-color);
